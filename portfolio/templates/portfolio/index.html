@@ -1,0 +1,372 @@
+
+{% extends 'portfolio/base.html' %}
+
+{% block title %}
+    
+{% endblock %}
+
+{% block body %}
+
+    <article class="resume-wrapper text-center position-relative">
+	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+		    <header class="resume-header pt-4 pt-md-0">
+			    <div class="media flex-column flex-md-row">
+                {% load static %} 
+				    <img class="mr-3 img-fluid picture mx-auto" src="{% static 'portfolio/assets/images/profile.jpg' %}" alt="Photo">
+				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+					    <div class="primary-info">
+						    <h6 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">MD. Obaidullah Al-Faruk</h6>
+						    <div class="title mb-3">B.Sc. in Computer Science And Engineering</div>
+						    <ul class="list-unstyled">
+							    <li class="mb-2"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>obaidullah.faruk05@gmail.com</li>
+							    <li><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>+88-01622283760</li>
+						    </ul>
+					    </div><!--//primary-info-->
+					    <div class="secondary-info ml-md-auto mt-2">
+						    <ul class="resume-social list-unstyled">
+				                <li class="mb-3"><a href="https://www.linkedin.com/in/md-obaidullah-al-faruk-788b32a3/"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/obaidullah</a></li>
+				                <li class="mb-3"><a href="https://github.com/obaidullah-faruk"><span class="fa-container text-center mr-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/obaidullah-faruk</a></li>
+				                <li class="mb-3"><a href="http://uhunt.onlinejudge.org/id/682664"><span class="fa-container text-center mr-2"><i class="fab fa-codepen fa-fw"></i></span>uva.onlinejudge.org/obaidullah-faruk</a></li>
+				                
+						    </ul>
+					    </div><!--//secondary-info-->
+					    
+				    </div><!--//media-body-->
+			    </div><!--//media-->
+		    </header>
+		    <div class="resume-body p-5">
+			    <section class="resume-section summary-section mb-5">
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">About me</h2>
+				    <div class="resume-section-content">
+					    <p class="mb-0"><p>My name is MD. Obaidullah Al-Faruk. I'm from mymenshinghn, Bangladesh . 
+I've done my SSC and HSC from B.A.F Shaheen Collage Kurmitola, Dhaka and I have completed my B.Sc. in Computer Science and Engineering from East West University (EWU)
+on April 2018 .</p> 
+<p>Learning, creating something new and solving problems is always satisfactory to me. I'm good at Python and Django framework.I love to solve programming problems.
+As a fresher , I don't have any work experience, but I am very passionate to work in Software industry. I have completed several online courses as my interest. 
+I have academic experience of completing several software projects. My undergrad project was University Curriculum Analyzer which finds the gap between 
+job market and university course curriculum and it's implemented in Python and Django and NLTK as well . </p> 
+<p>My biggest achievement during my undergraduate period is to presenting and published our thesis paper in the IEEE sponsored 3rd ICRTCST-2018 Conference ,
+Jamshedpur , India in April 25, 2018 . </p> 
+<p>I have a great interest in Python, Django, Machine Learning, Data Science and also in the field of research and study.</p>
+<p>My goal is to build a successful career as in python, Which Can help my company and me personally. My strengths are my positive attitude , 
+punctuality , interpersonal skills and strong in management skills .</p></p>
+				    </div>
+
+
+<section class="skills-section section">
+
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">  Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python  </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 94%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Django</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">C &amp; C++</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Database : MySQL, Oracle 12g, SQLite</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                                        <div class="item">
+                        <h3 class="level-title">Bootstrap</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 87%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                                        <div class="item">
+                        <h3 class="level-title">Git</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 86%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                                   <div class="item">
+                        <h3 class="level-title">PHP</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->     
+                    <div class="item">
+                        <h3 class="level-title">Laravel</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 65%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                                        <div class="item">
+                        <h3 class="level-title">C#</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+
+
+
+
+			    </section><!--//summary-section-->
+			    <div class="row">
+				    <div class="col-lg-9">
+					    <section class="resume-section experience-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
+						    <div class="resume-section-content">
+							        <article class="resume-timeline-item position-relative pb-5">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><a href="https://github.com/obaidullah-faruk/Education-Gap-Analyzer" target="_blank">University Curriculum Analyzer</a></h3>
+										        <div class="resume-company-name ml-auto"></div>
+										    </div><!--//row-->
+										   
+									    <div class="resume-timeline-item-desc">
+										    <p>By applying our proposed string matching algorithm(BFM) for analyzing university curriculum with respect to current job circular. I have build up this application by applying BFM at it’s core functionality, whereas using NLTK together with Django framework to give it a complete shape .</p>
+										    
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Django v1.11</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">javascript</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">SQLite</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">CSS3</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Bootstrap</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">NLTK 3.2.5</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">Jinja v2</span></li>         
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><a href="https://github.com/obaidullah-faruk/Space-Exploration" target="_blank">Space Exploration</a></h3>
+										        <div class="resume-company-name ml-auto"></div>
+										    </div><!--//row-->
+										   
+									    <div class="resume-timeline-item-desc">
+										    <p>A PHP based web database programming project for blogging and question-answer regarding space.</p>
+										    
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">javascript</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">CSS</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Bootstrap v3.3.7</span></li>
+        
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+
+
+
+								    
+								   <article class="resume-timeline-item position-relative pb-5">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><a href="https://github.com/obaidullah-faruk/Movie-Review-and-Rating-System" target="_blank">Movie Review and Rating system</a></h3>
+										        <div class="resume-company-name ml-auto"></div>
+										    </div><!--//row-->
+										   
+									    <div class="resume-timeline-item-desc">
+										    <p>A website for reviewing movies and rate those movies as well as suggest movies to the user based upon his/her interest .</p>
+										    
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">javascript</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">CSS</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Bootstrap v3.3.7</span></li>
+        
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+
+								    
+                                    <article class="resume-timeline-item position-relative pb-5">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><a href="https://github.com/obaidullah-faruk/Music-Refesh_Your_Mind" target="_blank">Music: Refresh Your Mind</a></h3>
+										        <div class="resume-company-name ml-auto"></div>
+										    </div><!--//row-->
+										   
+									    <div class="resume-timeline-item-desc">
+										    <p>An AI project. By taking answer of some polar questions, it detects mood of the user and play song according to the detected mood.</p>
+										    
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Prolog</span></li>
+        
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+
+                                    <article class="resume-timeline-item position-relative pb-5">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1"><a href="https://github.com/obaidullah-faruk/Movie-Review-and-Rating-System" target="_blank">Blog Site</a></h3>
+										        <div class="resume-company-name ml-auto"></div>
+										    </div><!--//row-->
+										   
+									    <div class="resume-timeline-item-desc">
+										    <p>This is a blog site where registered user can post with image and they can edit, update, delete their own post. A viewer without sign in can view all the posts . </p>
+                                            <p>-It will be in live very soon .</p>
+										    
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Laravel</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">PHP</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML5</span></li>
+                                                <li class="list-inline-item"><span class="badge badge-primary badge-pill">CSS</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Bootstrap v3.3.7</span></li>
+        
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    
+							    </div><!--//resume-timeline-->
+							    
+							    
+
+
+
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">PUBLICATION</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-2">
+								        <div class="resume-degree font-weight-bold"> BFM: A Forward Backward String Matching Algorithm with Improved Shifting for Information Retrieval.</div>
+								        <div class="resume-degree-org">Conference: IEEE Sponsored 3rd International Conference on Recent Trends in Computer Science and Technology (ICRTCST -2018), Jamshedpur, India.</div>
+								        <div class=""><a href="http://icrtcst.rvscet.com/wp-content/uploads/2018/06/final-abs.pdf" target="_blank">Verdict : Published in Conference Proceedings</a></div>
+								    </li>
+
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+
+						    
+						    
+					    </section><!--//experience-section-->
+				    </div>
+				    <div class="col-lg-3">
+					    
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-2">
+								        <div class="resume-degree font-weight-bold"><i class="fas fa-graduation-cap"></i>  Bachelor of Science (B. Sc.) in Computer Science and Engineering</div>
+								        <div class="resume-degree-org">East West University, Dhaka, Bangladesh</div>
+								        <div class="resume-degree-time">2013 - 2018</div>
+								    </li>
+								    <li>
+								        <div class="resume-degree font-weight-bold"><i class="fas fa-graduation-cap"></i> Higher Secondary Certificate (H.S.C.)</div>
+								        <div class="resume-degree-org">BAF Shaheen College Kurmitola, Dhaka</div>
+								        <div class="resume-degree-time">2011 - 2012</div>
+								    </li>
+                                    								    <li>
+								        <div class="resume-degree font-weight-bold"><i class="fas fa-graduation-cap"></i> Secondary School Certificate (S.S.C.)</div>
+								        <div class="resume-degree-org">BAF Shaheen College Kurmitola, Dhaka</div>
+								        <div class="resume-degree-time">2011 - 2012</div>
+								    </li>
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+
+
+					    
+					    <section class="resume-section language-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-lang-list">
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Bangla</span> <small class="text-muted font-weight-normal">(Native)</small></li>
+								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+							    </ul>
+						    </div>
+					    </section><!--//language-section-->
+					    <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-1">Travelling</li>
+                                    <li class="mb-1">Photography</li>
+                                     <li class="mb-1">Mountaineering</li>    
+                                    <li class="mb-1">Cycling</li> 
+								    <li class="mb-1">Football</li>
+								    <li class="mb-1">Artificial Intelligence</li>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+
+
+                        <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">ONLINE COURSES</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-1"><a href="https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/" target="_blank">Python and Django Full Stack Web Developer Bootcamp</li>
+                                    <li class="mb-1"><a href="https://www.udemy.com/web-developer-course/" target="_blank">Ultimate Web Designer and Developer Course</li>   
+							    </ul>
+						    </div>
+					    </section><!--//Course-section-->
+
+
+
+                        <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Online CERTIFICATIONS</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-1"><a href="https://www.datacamp.com/statement-of-accomplishment/course/d1e4ecf33e1d5934346a8af8bb48dc48f09a8850" target="_blank">Intro to Python for Data Science</li>
+                                    <li class="mb-1"><a href="https://www.sololearn.com/Certificate/1073-964183/pdf/" target="_blank">Python 3 Tutorial Course</li>
+                                     <li class="mb-1"><a href="https://www.sololearn.com/Certificate/1060-964183/pdf/" target="_blank">SQL Fundamentals Course</li>    
+							    </ul>
+						    </div>
+					    </section><!--//Certification-section-->
+					    
+				    </div>
+
+                    
+			    </div><!--//row-->   
+
+		    </div><!--//resume-body-->
+		    
+		    
+	    </div>
+        
+    </article>  
+  
+    
+    <footer class="footer text-center pt-2 pb-5">
+                <small class="copyright">Developed by MD. Obaidullah Al-Faruk. </small>
+    </footer>
+
+{% endblock %}
+
